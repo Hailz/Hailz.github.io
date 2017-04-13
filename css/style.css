@@ -1,5 +1,5 @@
 body{
-  background-color: darkGray;
+  font-family: 'Raleway', sans-serif;
 }
 nav{
   position: fixed;
@@ -11,53 +11,32 @@ footer{
   color: white;
   width: 100%;
   height: 5%;
-}*/
-/*.site-navigation{
-  display: inline-block;
-}*/
-/*.site-navigation a{
+}
+.parallax{
+  background-image: url("../img/seattle.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -10%;
+}
+.parallaxWordsBox{
+  margin-left: 15%;
+  padding-top: 25%
+}
+.parallaxWords{
   color: white;
-  text-decoration: none;
+  font-family: 'Marcellus', serif;
+  font-size: 50px;
+  text-shadow: 3px 2px black;
 }
-.site-navigation a.active{
-  background-color: lightGray;
+.projects{
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  margin: 2%;
 }
-.site-navigation a:hover:not(.active){
-  background-color: #ddd;
-}*/
-/*.flex-continer{
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 90%;
-}
-.flex-item{
-  display: -webkit-flex-block;
-  display: flex-block;
-}*/
-/*.projects{
-  display: inline-block;
-}
-.skill{
-  display: inline-block;
-}*/
-/*.column{
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-}
-.left{
-
-}
-.right{
-*/
-/*}*/
 #contactForm{
-  background-color: lightBrown;
+  background-color: brown;
 }
-/*#words{
-  max-width: 70%;
-  display: inline-block;
-}
+
