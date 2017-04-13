@@ -10,16 +10,16 @@
   <link href="https://fonts.googleapis.com/css?family=Marcellus|Raleway" rel="stylesheet">
 
 </head>
-<body class="container-fluid">
+<body>
   <div id="top"></div>
-  <nav class="navbar navbar-inverse site-navigation" role='navigation'>
+  <nav class="navbar navbar-inverse navbar-fixed-top site-navigation col-xs-12 col-sm-12 col-md-12 col-lg-12" role='navigation'>
     <div class="navbar-header navbar-left">
-      <button type="button" class="navbar-toggle" data-toggle='collapse' data-targe='#myNavBar'>
+      <button type="button" class="navbar-toggle" data-toggle='collapse' data-target='#myNavBar'>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand float-right" href="./resume.html">Resume</a>
+      <a class="navbar-brand" href="./resume.html">Resume</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavBar">
       <ul class="nav navbar-nav">
@@ -38,7 +38,7 @@
       </ul>
     </div>
   </nav>
-  <content>
+  <div class="container-fluid">
     <div class="parallax">
       <div  class=" row parallaxWordsBox">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -48,7 +48,8 @@
       </div>
     </div>
     <br>
-    <div class="row" id="about">
+    <section id="about"></section>
+    <div class="row">
       <div class="col-xs-7 col-sm-8 col-m-8 col-lg-8" id="words">
         <p>I'm Hailey, problem solver and website builder, and I love making things, especially interesting and useful things. I believe websites should be functional, beautiful, and improve people's lives. I know there is so much potential through the internet to help, teach, and impower people and I want to be a part of that.</p>
 
@@ -72,13 +73,13 @@
             </div> -->  
           </div>
           <div class="item">
-            <img src="http://fillmurray.com/200/320" alt="Just a picture of me.">
+            <img src="http://fillmurray.com/944/960" alt="Just a picture of me.">
             <div class="carousel-caption">
               <h1>Screen 2</h1>
             </div> 
           </div>
           <div class="item">
-            <img src="http://fillmurray.com/200/350" alt="Just a picture of me.">
+            <img src="http://fillmurray.com/944/960" alt="Just a picture of me.">
             <div class="carousel-caption">
               <h1>Screen 3</h1>
             </div> 
@@ -95,22 +96,20 @@
         </a>
       </div>
     </div>
-
-    <div class="row" id="work">
+    <section id="work" class="buffer"></section>
+    <div class="row">
       <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 projects" id="project1">
         <h3>Tic Tac Toe</h3>
-        <img src="http://fillmurray.com/200/300" >
-        <!-- <iframe src=""><a href="">Click here to visit the site.</a></iframe> -->
+        <img src="http://fillmurray.com/150/150" width="100%" height="25%">
         <p>The classic game of Tic Tac Toe. Just a simple and clean display of the classic game written in HTML, CSS, and JavaScript.</p>
         <div class="row">
-          <a class="btn btn-primary col-xs-3 col-sm-2 col-md-2 col-lg-2" href="#">Bitbaloon</a>
+          <a class="btn btn-primary btn-md col-xs-3 col-sm-2 col-md-2 col-lg-2" href="#">Bitbaloon</a>
           <a class="btn btn-info col-xs-3 col-sm-2 col-md-2 col-lg-2" href="https://github.com/Hailz/tic-tac-toe">GitHub</a>
         </div>
       </div>
       <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 projects" id="project2">
         <h3>Zombie Smash</h3>
-        <!-- <img src="http://fillmurray.com/200/300" > -->
-        <iframe src="http://zombie-smash.bitballoon.com/"><a href="http://zombie-smash.bitballoon.com/">Click here to visit the site.</a></iframe>
+        <a href="http://zombie-smash.bitballoon.com/"><img src="http://fillmurray.com/150/150" width="100%" height="25%"></a>
         <p>Think Whack a Mole but with zombies! This project is written in HTML, CSS, JavaScript, and jQuery. I also wrote a simple jQuery pluggin to allow for CSS manipulation where it normally wouldn't be an option.</p>
         <div class="row">
           <a class="btn btn-primary col-xs-3 col-sm-2 col-md-2 col-lg-2" href="http://zombie-smash.bitballoon.com/">Bitbaloon</a>
@@ -119,8 +118,7 @@
       </div>
       <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 projects" id="project3">
         <h3>Happy Face</h3>
-        <!-- <img src="http://fillmurray.com/200/300"> -->
-        <iframe src="https://projecthappyface.herokuapp.com/"><a href="https://projecthappyface.herokuapp.com/">Click here to visit the site.</a></iframe>
+        <a href="https://projecthappyface.herokuapp.com/"><img src="http://fillmurray.com/200/200" width="100%" height="25%"></a>
         <p>Happy Face provides users with the ability to quickly find products that match their values or allergy based needs and save them. This project uses HTML, CSS, Bootstrap, a Makeup API, Express, and Node.js.</p>
         <div class="row">
           <a class="btn btn-primary col-xs-3 col-sm-2 col-md-2 col-lg-2" href="https://projecthappyface.herokuapp.com/">Heroku</a>
@@ -129,8 +127,7 @@
       </div>
       <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 projects" id="project4">
         <h3>ExcuseMe</h3>
-        <!-- <img src="http://fillmurray.com/200/300"> -->
-        <iframe src="http://excuse-me.herokuapp.com/"><a href="http://excuse-me.herokuapp.com/">Click here to visit the site.</a></iframe>
+        <a href="http://excuse-me.herokuapp.com/"><img width="100%" height="25%" src="./img/excuseMe.png"></a>
         <p>Need out of an awkward situation? ExcuseMe has got your back! ExcuseMe offers users the chance to text themself an excuse from another number. The app provides users with various excuses or, if none of the prewritten excuses strike their fancy, the user may write their own message to have texted to them.</p>
         <div class="row">
           <a class="btn btn-primary col-xs-3 col-sm-2 col-md-2 col-lg-2" href="http://excuse-me.herokuapp.com/">Heroku</a>
@@ -139,8 +136,7 @@
       </div>
       <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 projects" id="project5">
         <h3>Project 4</h3>
-        <img src="http://fillmurray.com/200/300">
-        <!-- <iframe src=""><a href="">Click here to visit the site.</a></iframe> -->
+        <img src="http://fillmurray.com/200/200" width="100%" height="25%">
         <p>Project description...it's a mystery...oooOOOOoooo...</p>
         <div class="row">
           <a class="btn btn-primary col-xs-3 col-sm-2 col-md-2 col-lg-2" href="#">Bitbaloon</a>
@@ -149,8 +145,7 @@
       </div>
       <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 projects" id="project6">
         <h3>Project 5</h3>
-        <img src="http://fillmurray.com/200/300">
-        <!-- <iframe src=""><a href="">Click here to visit the site.</a></iframe> -->
+        <img src="http://fillmurray.com/200/200" width="100%" height="25%">
         <p>Project description...What could it be?!</p>
         <div class="row">
             <a class="btn btn-primary col-xs-3 col-sm-2 col-md-2 col-lg-2"" href="#">Bitbaloon</a>
@@ -158,7 +153,8 @@
         </div>
       </div>
     </div>
-    <section class="row" id="skills">
+    <section id="skills" class="buffer"></section>
+    <section class="row">
       <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 skill">
         <h3>Languages</h3>
         <ul>
@@ -220,6 +216,7 @@
           <li>RESTful Routing</li>
         </ul>
       </div>
+
     </section>
     <section class="row" id="contactForm">
       <div class="col-xs-6 col-md-6 col-lg-6">
@@ -243,6 +240,7 @@
               <input class="form-control text-area" type="text" name="message">
             </div>
           </div>
+          <input class="btn btn-default" type="submit" name="submit">
         </form>
       </div>
       <div class="col-xs-6 col-md-6 col-lg-6">
@@ -256,19 +254,17 @@
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
               <h3 class='glyphicon glyphicon-envelope'>Email</h3>
-              <h4>test@test.com</h4>
+              <h4>haileydangel@gmail.com</h4>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-4 col-md-4 col-lg-4">
-              <a href="#"><i class="fa fa-3x fa-github" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
-            </div>
+            <a class="col-xs-4 col-md-4 col-lg-4" href="https://github.com/Hailz"><i class="fa fa-3x fa-github" aria-hidden="true"></i></a>
+            <a class="col-xs-4 col-md-4 col-lg-4" href="https://www.linkedin.com/in/haileydangel/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
           </div>
       </div>
     </section>
-  </content>
-  <footer>
+  </div>
+  <footer class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
     
   </footer>
 
@@ -278,6 +274,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
   <!-- Bootstrap JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
