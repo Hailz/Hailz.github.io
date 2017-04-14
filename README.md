@@ -1,1 +1,1 @@
-This is the code for my work in progress portfolio.
+Visit my portolio at: https://hailz.github.io/
