@@ -1,5 +1,5 @@
 body{
- /* font-family: 'Raleway', sans-serif;*/
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
 }
 nav{
@@ -17,6 +17,9 @@ p{
 }
 .linkIcon{
   color: black;
+}
+.linkIcon:hover{
+  color: white;
 }
 .parallax{
   background-image: url("../img/seattle2.jpg");
@@ -40,7 +43,7 @@ p{
 }
 .parallaxWords{
   color: white;
-/*  font-family: 'Marcellus', serif;*/
+  font-family: 'Neuton', serif;
   font-size: 50px;
   text-shadow: 1px 1px black;
 }
@@ -63,6 +66,12 @@ p{
   margin: 2%;
   min-height: 620px;
   font-size: 18px;
+}
+.center{
+  margin-left: 2.5%;
+}
+.projectImg{
+  width: 95%;
 }
 .b1{
   margin-bottom: 2%;
