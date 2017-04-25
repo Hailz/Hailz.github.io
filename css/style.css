@@ -15,8 +15,15 @@ p{
   padding-left: 2%;
   padding-right: 2%;
 }
+h1{
+  font-size: 50px;
+}
+.navbar-brand{
+  font-size: 20px;
+}
 .linkIcon{
   color: black;
+  height: 60px;
 }
 .linkIcon:hover{
   color: white;
@@ -44,7 +51,6 @@ p{
 .parallaxWords{
   color: white;
   font-family: 'Neuton', serif;
-  font-size: 50px;
   text-shadow: 1px 1px black;
 }
 .polaroid{
