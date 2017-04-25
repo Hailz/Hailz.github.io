@@ -90,8 +90,11 @@ p{
 .buffer{
   height: 60px;
 }
+.me{
+  padding-bottom: 20px;
+}
 #about{
-  height: 10%;
+  height: 5%;
 }
 #contactForm{
   background-color: lightBlue;
